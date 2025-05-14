@@ -35,4 +35,5 @@ def obter_ano_valido():
         print(f'{ano} não é valido. Digite um ano de 4 dígitos.')
         return obter_ano_valido()
 
-main()
+if __name__ == "__main__":
+    main()  
